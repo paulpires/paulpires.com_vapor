@@ -4,8 +4,8 @@ let drop = Droplet()
 
 drop.get { req in
     return try drop.view.make("welcome", [
-    	"message": "Welcome to pauls blog"
+    	"message": "again"
     ])
 }
-drop.resource("posts", PostController())
+
 drop.run()
