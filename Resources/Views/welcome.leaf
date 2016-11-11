@@ -17,20 +17,22 @@
 
 #export("body") {
 	<body>
-
-	<div class="container paper paper-curl">
+	<div class="container paper paper-raise">
   	<div class="row animated fadeInDown">
-    	<div class="col-xs-12">
-      	<div id="text-header" class="text-center font-thin">
-        	<h1>Paul Pires - iOS Developer<br/></h1>
-      	</div>
-				<hr>
+    	<div id="text-header" class="col-xs-6">
+				<h1>Paul Pires</h1>
 	    </div>
+			<div class="col-xs-6">
+				<img src="images/github.svg" style="width: 4em; margin: 7px; float: right"/>
+				<img src="images/email2.svg" style="width: 4em; margin: 7px; float: right"/>
+			</div>
+			<div class="col-xs-12">
+				<hr>
+			</div>
 	  </div>
 	  <div class="row">
 	    <div style="width: 96%; margin: 0 auto;" class="box animated fadeInDown">
-	      <h2>Contact</h2>
-	      <p><img src="images/linkedin_img.png" style="width: 14px; height: 14px;"/> Connect with me on<a href="https://www.linkedin.com/pub/paul-pires/42/a0/53a" target="_blank"> LinkedIn</a><br/><span class="glyphicon glyphicon-envelope"></span> Email me at<span class="font-orange"><a href="mailto:paulpires101@gmail.com"> paulpires101@gmail.com</a></span> or leave me a message below:</p>
+	      <p><img src="images/linkedin_img.png" style=""/> Connect with me on<a href="https://www.linkedin.com/pub/paul-pires/42/a0/53a" target="_blank"> LinkedIn</a><br/><span class="glyphicon glyphicon-envelope"></span> Email me at<span class="font-orange"><a href="mailto:paulpires101@gmail.com"> paulpires101@gmail.com</a></span> or leave me a message below:</p>
 	    </div>
 	  </div>
 	</div>
