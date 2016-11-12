@@ -23,24 +23,44 @@
 					<h1>Paul Pires</h1>
 		    </div>
 				<div class="col-xs-6 social">
-					<img src="images/cv.svg"/>
-					<img src="images/email3.svg"/>
-					<img src="images/github2.svg"/>
-					<img src="images/linkedin2.svg"/>
+					<a href="#()"><img src="images/cv.svg"/></a>
+					<a href="mailto:paulpires101@gmail.com"><img src="images/email.svg"/></a>
+					<a href="https://github.com/paulpires" target="_blank"><img src="images/github.svg"/></a>
+					<a href="https://www.linkedin.com/pub/paul-pires/42/a0/53a" target="_blank"><img src="images/linkedin.svg"/></a>
 				</div>
 				<div class="col-xs-12">
 					<hr>
 				</div>
 		  </div>
 		  <div class="row">
-		    <div style="width: 96%; margin: 0 auto;" class="box animated fadeInDown">
-		      <p><img src="images/linkedin_img.png" style=""/> Connect with me on<a href="https://www.linkedin.com/pub/paul-pires/42/a0/53a" target="_blank"> LinkedIn</a><br/><span class="glyphicon glyphicon-envelope"></span> Email me at<span class="font-orange"><a href="mailto:paulpires101@gmail.com"> paulpires101@gmail.com</a></span> or leave me a message below:</p>
+		    <div style="width: 96%; margin: 0 auto; color: grey;" class="box animated fadeInDown">
+					<p>
+						Hey, I'm Paul - a software engineer living in London with a
+						particular interest in <b>mobile</b> and <b>web</b> technologies.
+						I currently specialize in <b>iOS</b> and work @ <b>Sky UK</b>.
+					</p>
+					<p>
+						Please feel free to contact me at <a href="mailto:paulpires101@gmail.com">paulpires101@gmail.com</a> or
+						connect with me on <a href="https://www.linkedin.com/pub/paul-pires/42/a0/53a">LinkedIn</a>.
+					</p>
 		    </div>
 		  </div>
 		</div>
 		<script src="/styles/bootstrap/js/jquery.js" charset="utf-8"></script>
 		<script src="/styles/bootstrap/js/bootstrap.js" charset="utf-8"></script>
 	</body>
+}
+
+#export("vapor_footer") {
+	<div class="container" style="background: #()ededed; margin-top: 0px; padding: 0px; text-align: center;">
+		<p style="font-family: 'Quicksand'; font-size: 1.2em; color: grey;">
+			This website was built using
+			<span>
+				<img src="images/vapor_droplet.svg" style="height: 19px; margin-top: -4px; margin-right: -3px;" alt=""/>
+			</span>
+			<span style="color: black">Vapor</span>
+		</p>
+	</div>
 }
 
 #export("history") {
