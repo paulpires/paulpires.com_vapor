@@ -89,11 +89,11 @@ h1 {
   color: #F0563D;
 }
 
-.box{
-  margin-bottom: 15px;
+.box {
+  margin: 0 auto;
 }
 
-.box p {
+p {
   font-size: 1.3em;
   line-height: 1.5em;
 }

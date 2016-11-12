@@ -1,0 +1,9 @@
+#extend("base")
+
+#export("body") {
+  <div class="row box animated fadeInDown">
+    <p>
+      Welcome to the CV page.
+    </p>
+  </div>
+}
