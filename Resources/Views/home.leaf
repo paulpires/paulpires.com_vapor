@@ -1,7 +1,7 @@
 #extend("base")
 
 #export("body") {
-	<div class="row box animated fadeInDown" style="color: grey">
+	<div class="row box" style="color: grey">
 			<p>
 				Hey, I'm Paul - a software engineer living in London with a
 				particular interest in <b>mobile</b> and <b>web</b> technologies.
@@ -14,15 +14,15 @@
 	</div>
 }
 
-<!-- un-used for now -->
+<!-- unused for now -->
 #export("vapor_footer") {
 	<div class="container" style="background: #()ededed; margin-top: 0px; padding: 0px; text-align: center;">
 		<p style="font-family: 'Quicksand'; font-size: 1.2em; color: grey;">
-			This website was built using
+			This website was built on
 			<span>
 				<img src="images/vapor_droplet.svg" style="height: 19px; margin-top: -4px; margin-right: -3px;" alt=""/>
 			</span>
-			<span style="color: black">Vapor</span>
+			<span style="color: black">Vapor</span> | view source <a href="#()">here</a>
 		</p>
 	</div>
 }
