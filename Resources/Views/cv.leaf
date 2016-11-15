@@ -2,7 +2,66 @@
 
 #export("body") {
   <div class="row box history">
-    <h2>History</h2>
+
+    <section id="skills">
+      <div class="box">
+        <h2>Projects</h2>
+
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="box">
+        <h2>Skills</h2>
+
+        <section id="expert">
+          <hr>
+          <h3>Mobile (iOS)</h3>
+          <span class="label label-skill">Swift 3</span>
+          <span class="label label-skill">Objective-C</span>
+          <span class="label label-skill">iOS</span>
+          <span class="label label-skill">XCode</span>
+          <span class="label label-skill">Core Data</span>
+          <span class="label label-skill">Storyboards</span>
+          <span class="label label-skill">Auto Layout</span>
+          <span class="label label-skill">GCD/Operations</span>
+          <span class="label label-skill">Cocoapods</span>
+          <span class="label label-skill">Carthage</span>
+          <span class="label label-skill">Swift Package Manager</span>
+          <span class="label label-skill">TDD with XCTest and OCMock</span>
+          <span class="label label-skill">Fitnesse for iOS</span>
+          <span class="label label-skill">BDD testing with Nimble/Quick</span>
+          <span class="label label-skill">XCode Bots</span>
+          <span class="label label-skill">Fastlane</span>
+          <span class="label label-skill">Provisioning/Code Signing</span>
+          <span class="label label-skill">Swift & Objective-C Interoperability</span>
+          <span class="label label-skill">Server-side Swift</span>
+          <span class="label label-skill">Git</span>
+        </section>
+
+        <section id="moderate">
+          <hr>
+          <h3>Web</h3>
+          <span class="label label-skill">Unix</span>
+          <span class="label label-skill">HTML/CSS</span>
+          <span class="label label-skill">Node.js</span>
+          <span class="label label-skill">Angular.js</span>
+          <span class="label label-skill">JQuery</span>
+        </section>
+
+        <section id="its_been_a_while">
+          <hr>
+          <h3>Other</h3>
+          <span class="label label-skill">Java</span>
+          <span class="label label-skill">PHP</span>
+          <span class="label label-skill">Tcl/Tk</span>
+          <span class="label label-skill">Relational DB: MySQL/Sybase</span>
+          <span class="label label-skill">Perforce</span>
+        </section>
+      </div>
+    </section>
+
+    <h2>Experience</h2>
     <section id="timeline" class="timeline-container">
 
       <div class="timeline-block">

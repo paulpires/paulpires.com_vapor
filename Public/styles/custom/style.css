@@ -69,13 +69,11 @@ h1 {
 @media (min-width: 750px) {
   .container {
     margin-top: 40px;
-    /*margin-bottom: 50px;*/
   }
 }
 
 @media (max-width: 800px) {
   .container {
-    /*height: 100vh;*/
     width: 100%;
     margin: 0px;
   }
@@ -105,6 +103,11 @@ h1 {
 p {
   font-size: 1.3em;
   line-height: 1.5em;
+}
+
+#skills {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*
@@ -137,8 +140,6 @@ p {
   padding: 5px;
   background: #ededed;
   display: inline-block;
-
-  /* animation duration */
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
@@ -206,16 +207,25 @@ p {
    ========================================================================== */
 
 .label-skill {
-  /*background-color: #A30263;*/
-  background-color: #eeeeee;
   border-radius: 0px;
   color: #363636;
-  /*color: white;*/
   display: inline-block;
   font-weight: normal;
   padding: 7px;
   font-size: 1.2em;
   margin-bottom: 3px;
+}
+
+#expert span {
+  background-color: #eeeeee;
+}
+
+#moderate span {
+  background-color: #eeeeee;
+}
+
+#its_been_a_while span {
+  background-color: #eeeeee;
 }
 
 /**
