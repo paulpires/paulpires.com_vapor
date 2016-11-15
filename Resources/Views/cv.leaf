@@ -47,13 +47,13 @@
           <span class="label label-skill">Node.js</span>
           <span class="label label-skill">Angular.js</span>
           <span class="label label-skill">JQuery</span>
+          <span class="label label-skill">PHP</span>
         </section>
 
         <section id="its_been_a_while">
           <hr>
           <h3>Other</h3>
           <span class="label label-skill">Java</span>
-          <span class="label label-skill">PHP</span>
           <span class="label label-skill">Tcl/Tk</span>
           <span class="label label-skill">Relational DB: MySQL/Sybase</span>
           <span class="label label-skill">Perforce</span>
