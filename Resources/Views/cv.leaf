@@ -3,17 +3,23 @@
 #export("body") {
   <div class="row box history">
 
-    <section id="skills">
+
+
+    <section id="">
+      <div id="download-cv"><a href="images/Paul_Pires_resume.pdf" target="_blank">
+        <button id="btn-download-cv" class="btn btn-primary"><span class="glyphicon glyphicon-cloud-download"></span> Download CV - PDF</button></a>
+      </div>
       <div class="box">
         <h2>Projects</h2>
-
+        <p style="font-family: monospace">
+          TODO: Put some projects here
+        </p>
       </div>
     </section>
 
     <section id="skills">
       <div class="box">
         <h2>Skills</h2>
-
         <section id="expert">
           <hr>
           <h3>Mobile (iOS)</h3>
@@ -38,7 +44,6 @@
           <span class="label label-skill">Server-side Swift</span>
           <span class="label label-skill">Git</span>
         </section>
-
         <section id="moderate">
           <hr>
           <h3>Web</h3>
@@ -49,7 +54,6 @@
           <span class="label label-skill">JQuery</span>
           <span class="label label-skill">PHP</span>
         </section>
-
         <section id="its_been_a_while">
           <hr>
           <h3>Other</h3>
