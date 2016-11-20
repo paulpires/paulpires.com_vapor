@@ -103,7 +103,7 @@ td:last-child {
     padding: 1em;
     box-shadow: 0 1px 0 #dddddd;
     /*box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.31);*/
-    width: 100%;
+    width: 102.5%;
 }
 
 .timeline-content .cd-read-more, .timeline-content {
@@ -152,13 +152,16 @@ td:last-child {
 }
 
 .subtle-link {
-    text-decoration: none;
     color: #363636;
     border-bottom: 1px dashed #999;
 }
 
+.subtle-link:hover {
+  color: #EC7263;
+}
+
 a:hover {
-    color: #EC7263;
+  color: #EC7263;
 }
 
 .no-decoration {

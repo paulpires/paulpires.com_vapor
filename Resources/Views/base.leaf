@@ -32,7 +32,7 @@
     </div>
     #import("body")
   </div>
-  <footer class="container" style="background: #()ededed; margin-top: 0px; padding: 0px; text-align: center;">
+  <footer class="container footer">
     <p style="font-family: 'Quicksand'; font-size: 1.2em; color: grey;">
 			Copyright © 2015, Paul Pires.
 		</p>

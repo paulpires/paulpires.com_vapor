@@ -3,68 +3,11 @@
 #export("body") {
   <div class="row box history">
 
-    <section id="">
-      <div id="download-cv"><a href="images/Paul_Pires_resume.pdf" target="_blank">
-        <button id="btn-download-cv" class="btn btn-primary"><span class="glyphicon glyphicon-cloud-download"></span> Download CV - PDF</button></a>
-      </div>
-      <div id="about-me" class="box">
-        <h2>About me</h2>
-        <p style="font-family: monospace">
-          I am a software engineer living in London. I have a particular
-          interest in <b>mobile</b> and <b>web</b> development and am keen to learn more and
-          expand my knowledge within these areas.
-        </p>
-      </div>
-    </section>
-
-    <section id="skills">
-      <div class="box">
-        <h2>Skills</h2>
-        <section id="expert">
-          <hr>
-          <h3>Mobile (iOS)</h3>
-          <span class="label label-skill">Swift 3</span>
-          <span class="label label-skill">Objective-C</span>
-          <span class="label label-skill">iOS</span>
-          <span class="label label-skill">XCode</span>
-          <span class="label label-skill">Core Data</span>
-          <span class="label label-skill">Storyboards</span>
-          <span class="label label-skill">Auto Layout</span>
-          <span class="label label-skill">GCD/Operations</span>
-          <span class="label label-skill">Cocoapods</span>
-          <span class="label label-skill">Carthage</span>
-          <span class="label label-skill">Swift Package Manager</span>
-          <span class="label label-skill">TDD with XCTest and OCMock</span>
-          <span class="label label-skill">Fitnesse for iOS</span>
-          <span class="label label-skill">BDD testing with Nimble/Quick</span>
-          <span class="label label-skill">XCode Bots</span>
-          <span class="label label-skill">Fastlane</span>
-          <span class="label label-skill">Provisioning/Code Signing</span>
-          <span class="label label-skill">Swift & Objective-C Interoperability</span>
-          <span class="label label-skill">Server-side Swift</span>
-        </section>
-        <section id="moderate">
-          <hr>
-          <h3>Web</h3>
-          <span class="label label-skill">Unix</span>
-          <span class="label label-skill">HTML/CSS</span>
-          <span class="label label-skill">Node.js</span>
-          <span class="label label-skill">Angular.js</span>
-          <span class="label label-skill">JQuery</span>
-          <span class="label label-skill">PHP</span>
-        </section>
-        <section id="its_been_a_while">
-          <hr>
-          <h3>Other</h3>
-          <span class="label label-skill">Git</span>
-          <span class="label label-skill">Unix</span>
-          <span class="label label-skill">Relational DB: MySQL/Sybase</span>
-          <span class="label label-skill">Java</span>
-          <span class="label label-skill">Tcl/Tk</span>
-          <span class="label label-skill">Perforce</span>
-        </section>
-      </div>
-    </section>
+    <div id="download-cv">
+      <a href="images/Paul_Pires_resume.pdf" target="_blank">
+        <h2 class="subtle-link"><span class="glyphicon glyphicon-cloud-download"></span> Download CV - PDF</h2>
+      </a>
+    </div>
 
     <h2>Experience</h2>
     <section id="timeline" class="timeline-container">
@@ -74,14 +17,26 @@
         <div class="timeline-content"><img src="images/sky_logo.png" alt="Sky" width="60" class="pull-right"/>
           <h4>iOS Developer @ Sky</h4>
           <h5 class="subtitle">September 2014 - Present</h5>
-          <p>Currently working on the Sky Go and Sky Q iOS applications. Other tasks include working on internal libraries.</p>
+          <p>
+            Currently working on the
+              <a class="subtle-link" href="https://itunes.apple.com/gb/app/sky-go/id446086440?mt=8" target="_blank"><b>Sky Go</b></a>
+            and
+            <a class="subtle-link" href="https://itunes.apple.com/gb/app/sky-q/id1033942116?mt=8 target="_blank""><b> Sky Q</b></a>
+            iOS apps. I also actively maintain and release some of our internal
+            iOS frameworks/libraries.
+          </p>
+          <p>
+            In my early days I had the opportunity of working on some internal
+            web projects using the MEAN stack and also experimented with cross
+            platform technologies such as Ionic.
+          </p>
         </div>
       </div>
 
       <div class="timeline-block">
         <div class="timeline-year"><span class="year">2010</span></div>
         <div class="timeline-content"><img src="images/city_logo.png" alt="City University London" height="50" class="pull-right"/>
-          <h4>BSc (Hons) Computer Science @ City Universitiy London</h4>
+          <h4>BSc (Hons) Computer Science @ City University London</h4>
           <h5 class="subtitle">September 2010 - July 2014</h5>
           <p>
             <!-- Focuses on functional programming, compilers and theory of computation.<br>-->
@@ -147,7 +102,7 @@
             <table class="table table-striped">
               <tbody>
                 <tr>
-                  <td>Data Stductures and Algorithms</td>
+                  <td>Data Structures and Algorithms</td>
                   <td>82.6%</td>
                 </tr>
                 <tr>
@@ -239,7 +194,7 @@
             <h4>Secondary School @ Escola Básica e Secundaria da Calheta</h4>
             <h5 class="subtitle">Oct 03 - Nov 07</h5>
             <div class="clearfix"></div>
-            <p>A small secondary school located on the beautiful island of  <a href="https://www.facebook.com/turismodamadeira" target="_blank" class="no-decoration subtle-link">Madeira, Portugal</a>.</p>
+            <p>A small secondary school located on the beautiful island of  <a href="https://www.facebook.com/visitmadeiraofficial" target="_blank" class="no-decoration subtle-link">Madeira, Portugal</a>.</p>
           </header>
         </div>
       </div>

@@ -19,6 +19,33 @@ a {
   color: #EC7263;
 }
 
+.container {
+  width: 790px;
+  background-color: #fff;
+}
+
+@media (min-width: 750px) {
+  .container {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    margin: 0px;
+  }
+  body {
+    background: white;
+  }
+  .paper {
+    position: inherit;
+    border: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
 .social img {
   width: 4em;
   margin: 7px;
@@ -61,33 +88,6 @@ h1 {
   background-color: white;
 }
 
-.container {
-  width: 790px;
-  background-color: #fff;
-}
-
-@media (min-width: 750px) {
-  .container {
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 800px) {
-  .container {
-    width: 100%;
-    margin: 0px;
-  }
-  body {
-    background: white;
-  }
-  .paper {
-    position: inherit;
-    border: 0px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-}
-
 .font-bold {
   font-weight: bold;
 }
@@ -115,14 +115,12 @@ p {
   margin-bottom: 20px;
 }
 
-/*
-   Website header
-   ========================================================================== */
-
 #download-cv {
-  font-family: 'Open Sans', sans-serif;
-  text-align: right;
   float: right;
+}
+
+#download-cv a:hover {
+  text-decoration: none;
 }
 
 #btn-download-cv:hover {
@@ -182,14 +180,17 @@ p {
 }
 
 #double-seperator > hr {
-  /*border-color: black;*/
   margin-top: 3px;
   margin-bottom: 0px;
 }
 
-/*
-   Languages
-   ========================================================================== */
+.footer {
+  background: transparent;
+  margin-top: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
 .skill {
   font-size: 1.3em;
   line-height: 1.5em;
@@ -197,20 +198,6 @@ p {
   margin-bottom: 10px;
   border-bottom: 1px solid #eeeeee;
 }
-
-.stars {
-  width: 111px;
-  height: 14px;
-  background-image: url("../images/grey-stars.png");
-}
-
-.red-stars {
-  background-image: url("../images/red-stars.png");
-}
-
-/*
-   IT Skills
-   ========================================================================== */
 
 .label-skill {
   border-radius: 0px;
