@@ -3,16 +3,16 @@
 #export("body") {
   <div class="row box history">
 
-
-
     <section id="">
       <div id="download-cv"><a href="images/Paul_Pires_resume.pdf" target="_blank">
         <button id="btn-download-cv" class="btn btn-primary"><span class="glyphicon glyphicon-cloud-download"></span> Download CV - PDF</button></a>
       </div>
-      <div class="box">
-        <h2>Projects</h2>
+      <div id="about-me" class="box">
+        <h2>About me</h2>
         <p style="font-family: monospace">
-          TODO: Put some projects here
+          I am a software engineer living in London. I have a particular
+          interest in <b>mobile</b> and <b>web</b> development and am keen to learn more and
+          expand my knowledge within these areas.
         </p>
       </div>
     </section>
@@ -42,7 +42,6 @@
           <span class="label label-skill">Provisioning/Code Signing</span>
           <span class="label label-skill">Swift & Objective-C Interoperability</span>
           <span class="label label-skill">Server-side Swift</span>
-          <span class="label label-skill">Git</span>
         </section>
         <section id="moderate">
           <hr>
@@ -57,9 +56,11 @@
         <section id="its_been_a_while">
           <hr>
           <h3>Other</h3>
+          <span class="label label-skill">Git</span>
+          <span class="label label-skill">Unix</span>
+          <span class="label label-skill">Relational DB: MySQL/Sybase</span>
           <span class="label label-skill">Java</span>
           <span class="label label-skill">Tcl/Tk</span>
-          <span class="label label-skill">Relational DB: MySQL/Sybase</span>
           <span class="label label-skill">Perforce</span>
         </section>
       </div>

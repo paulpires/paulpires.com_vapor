@@ -105,6 +105,11 @@ p {
   line-height: 1.5em;
 }
 
+#about-me {
+  width: 65%;
+  margin: 0;
+}
+
 #skills {
   margin-top: 20px;
   margin-bottom: 20px;

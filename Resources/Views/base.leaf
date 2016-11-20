@@ -17,10 +17,10 @@
 <body>
   <div class="container paper paper-raise">
     <div class="row">
-      <div id="text-header" class="col-xs-3">
+      <div id="text-header" class="col-xs-6">
         <a href="/" style="color: black"><h1>Paul Pires</h1></a>
       </div>
-      <div class="col-xs-9 social">
+      <div class="col-xs-6 social">
         <a href="cv"><img src="images/cv.svg"/></a>
         <a href="mailto:paulpires101@gmail.com"><img src="images/email.svg"/></a>
         <a href="https://github.com/paulpires" target="_blank"><img src="images/github.svg"/></a>
@@ -32,6 +32,11 @@
     </div>
     #import("body")
   </div>
+  <footer class="container" style="background: #()ededed; margin-top: 0px; padding: 0px; text-align: center;">
+    <p style="font-family: 'Quicksand'; font-size: 1.2em; color: grey;">
+			Copyright © 2015, Paul Pires.
+		</p>
+  </footer>
   <script src="/styles/bootstrap/js/jquery.js" charset="utf-8"></script>
   <script src="/styles/bootstrap/js/bootstrap.js" charset="utf-8"></script>
   <script src="/js/main.js" charset="utf-8"></script>
