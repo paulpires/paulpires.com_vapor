@@ -1,5 +1,5 @@
 # paulpires.com
 
-paulpires.com written in Swift with Vapor.
+paulpires.com with a Swift backend.
 
 ## 
