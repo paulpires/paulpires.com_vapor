@@ -7,16 +7,16 @@
 
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="/styles/bootstrap/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/styles/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="/styles/animate.css">
-  <link rel="stylesheet" href="/styles/beemuse.css">
-  <link rel="stylesheet" href="/styles/custom/style.css">
-  <link rel="stylesheet" href="/styles/custom/timeline.css">
+  <link rel="stylesheet" href="/styles/bootstrap/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/styles/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles/animate.min.css">
+  <link rel="stylesheet" href="/styles/beemuse.min.css">
+  <link rel="stylesheet" href="/styles/custom/style.min.css">
+  <link rel="stylesheet" href="/styles/custom/timeline.min.css">
 
-  <script defer src="/styles/bootstrap/js/jquery.js" charset="utf-8"></script>
-  <script defer src="/styles/bootstrap/js/bootstrap.js" charset="utf-8"></script>
-  <script defer src="/js/main.js" charset="utf-8"></script>
+  <script defer src="/styles/bootstrap/js/jquery.min.js" charset="utf-8"></script>
+  <script defer src="/styles/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  <script defer src="/js/main.min.js" charset="utf-8"></script>
 </head>
 <body>
   <div class="container paper paper-raise">
